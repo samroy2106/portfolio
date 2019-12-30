@@ -11,7 +11,7 @@
  <div class="nav">
    <a class="a active" href="#">Home</a>
    <a class="b" href="#">About</a>
-   <a class="c" href="#">Resume</a>
+   <a class="c" onClick="openTab(this)" href="#" name="Sample PDF.pdf">Resume</a>
  </div>
 
  <div class="content">
@@ -25,13 +25,13 @@
    <h1>Work Experience</h1>
      <div class="tantalus">
        <img src="about_images/tantalus.png"/>
-       <p>Business Tools Developer and Junior Systems Administrator
+       <p><b>Tantalus Systems</b><br>Business Tools Developer and Junior Systems Administrator
        <br>January 2019 - August 2019</p>
      </div>
    <h1>Education</h1>
      <div class="uvic">
        <img src="about_images/uvic.png"/>
-       <p>BSc Computer Science (minor in Business)
+       <p><b>University of Victoria</b><br>BSc Computer Science (minor in Business)
        <br>September 2016 - present</p>
      </div>
  </div>
@@ -39,8 +39,8 @@
 </div>
 
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript">
 
+<script type="text/javascript">
  $(document).ready(function(){
    $('a').click(function(){
      //alert("issa click");
@@ -65,7 +65,12 @@
      $home.fadeOut();
    });
  });
+</script>
 
+<script type="text/javascript">
+  function openTab(th){
+    window.open(th.name, '_blank');
+  }
 </script>
 
 </body>
