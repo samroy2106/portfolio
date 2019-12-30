@@ -1,0 +1,11 @@
+1. About page with work and education. - DONE
+2. Open resume pdf on click.
+3. Add LinkdIn and GitHub links to home page.
+4. Host website on GitHub.
+5. Give custom URL.
+
+Formatting:
+1. Must open correctly on any size PC window.
+2. Must open correctly on mobile.
+3. Must open PDF in new tab both on PC and mobile.
+4. Show only homepage on initial load.
