@@ -10,3 +10,4 @@ Formatting:
 2. Must open correctly on mobile.
 3. Must open PDF in new tab both on PC and mobile.
 4. Show only homepage on initial load. - DONE
+5. Home must stay highlighted on opening link.
