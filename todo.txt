@@ -1,6 +1,7 @@
 1. About page with work and education. - DONE
-2. Open resume pdf on click.
+2. Open resume pdf on click. - DONE
 3. Add LinkdIn and GitHub links to home page.
+
 4. Host website on GitHub.
 5. Give custom URL.
 
