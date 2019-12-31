@@ -29,7 +29,7 @@
    </div>
  </div>
 
- <div class="about">
+ <div class="about" id="tohide">
    <h1>Work Experience</h1>
      <div class="tantalus">
        <img src="about_images/tantalus.png"/>
@@ -51,11 +51,12 @@
 <script type="text/javascript">
  $(document).ready(function(){
    $('a').click(function(){
-     //alert("issa click");
      var selected = $(this);
      $('a').removeClass('active');
      $(selected).addClass('active');
    });
+
+   $("div#tohide").hide("about");
 
    var $a = $('.a'),
        $b = $('.b'),

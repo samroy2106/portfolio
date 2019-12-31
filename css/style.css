@@ -135,6 +135,7 @@ a.active, .nav a:hover{
   color: white;
   font-family: verdana;
   text-transform: none;
+  display: none;
 }
 
 .about h1{
