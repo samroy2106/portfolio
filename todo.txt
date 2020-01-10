@@ -10,4 +10,5 @@ Formatting:
 2. Must open correctly on mobile.
 3. Must open PDF in new tab both on PC and mobile.
 4. Show only homepage on initial load. - DONE
-5. Home must stay highlighted on opening link.
+5. Home must stay highlighted on opening link (icons). - Since the icons are part of 'home', pressing it just unpresses it.
+6. Home must become highlighted when resume is opened in new tab.
