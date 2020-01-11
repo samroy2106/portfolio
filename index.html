@@ -29,7 +29,7 @@
    </div>
  </div>
 
- <div class="about" id="tohide">
+ <div class="about">
    <h1>Work Experience</h1>
      <div class="tantalus">
        <img src="about_images/tantalus.png"/>
@@ -48,15 +48,15 @@
 
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 
+<script src="https://kit.fontawesome.com/8b75e01689.js" crossorigin="anonymous"></script>
+
 <script type="text/javascript">
  $(document).ready(function(){
    $('a').click(function(){
-     var selected = $(this);
-     $('a').removeClass('active');
-     $(selected).addClass('active');
+    var selected = $(this);
+    $('a').removeClass('active');
+    $(selected).addClass('active');
    });
-
-   $("div#tohide").hide("about");
 
    var $a = $('.a'),
        $b = $('.b'),
@@ -78,9 +78,10 @@
  function openTab(th){
    window.open(th.name, '_blank');
  }
-</script>
 
-<script src="https://kit.fontawesome.com/8b75e01689.js" crossorigin="anonymous"></script>
+ function keepHighlighted(th){
+ }
+</script>
 
 </body>
 </html>
