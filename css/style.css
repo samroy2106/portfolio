@@ -31,6 +31,7 @@ html, body{
 .nav a{
   text-decoration: none;
   font-size: 28px;
+  font-size: 2.2vw;
   font-family: verdana;
   font-weight: bold;
   height: auto; /*was 90 px*/
@@ -104,12 +105,16 @@ a.active, .nav a:hover{
 }
 
 .content .home ul li a{
-  width: 40px;
-  height: 40px;
+  width: 40px; /*was 40px*/
+  width: 2.5vw;
+  height: 40px; /*was 40px*/
+  height: 2.5vw;
   background: #fff;
   text-align: center;
-  line-height: 40px;
+  line-height: 40px; /*was 40px*/
+  line-height: 2.5vw;
   font-size: 20px;
+  font-size: 1vw;
   margin: 0 10px;
   display: block;
   border-radius: 50%;
@@ -131,8 +136,8 @@ a.active, .nav a:hover{
 .about{
   position: absolute;
   height: auto;
-  width: 1100px;
-  left: 436px;
+  width: 70%; /*was 1100px*/
+  left: 28%; /*was 436px*/
   top: 5%;
   color: white;
   font-family: verdana;
@@ -142,13 +147,14 @@ a.active, .nav a:hover{
 
 .about h1{
   font-size: 32px;
+  font-size: 2.5vw;
 }
 
 .about .tantalus{
 }
 
 .about .uvic{
-  padding-top: 3%
+  padding-top: 0.8%;
 }
 
 .tantalus img{
@@ -161,7 +167,7 @@ a.active, .nav a:hover{
 }
 
 .uvic img{
-  height: 350px;
+  height: auto; /*was 350px*/
   width: 24%;
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
@@ -182,6 +188,7 @@ a.active, .nav a:hover{
 .about .tantalus p{
   position: absolute;
   font-size: 20px;
+  font-size: 1.5vw;
   top: 14%;
   left: 50%;
   color: #fff;
@@ -195,6 +202,7 @@ a.active, .nav a:hover{
 .about .uvic p{
   position: absolute;
   font-size: 20px;
+  font-size: 1.5vw;
   top: 65%;
   left: 50%;
   color: #fff;
