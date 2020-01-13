@@ -2,13 +2,13 @@
 2. Open resume pdf on click. - DONE
 3. Add LinkdIn and GitHub links to home page. - DONE
 
-4. Host website on GitHub.
-5. Give custom URL.
+4. Host website on GitHub. - DONE
 
 Formatting:
 1. Must open correctly on any size PC window. - DONE
-2. Must open correctly on mobile.
-3. Must open PDF in new tab both on PC and mobile.
+2. Must open correctly on mobile. - DONE
+3. Must open PDF in new tab both on PC and mobile. - DONE
 4. Show only homepage on initial load. - DONE
 5. Home must stay highlighted on opening link (icons).
 6. Home must become highlighted when resume is opened in new tab.
+7. Need to fix about tab elements positioning.
